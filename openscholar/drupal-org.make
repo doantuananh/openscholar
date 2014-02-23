@@ -12,12 +12,6 @@ projects[advanced_help][patch][] = "http://drupal.org/files/advanced_help-removi
 projects[apachesolr][subdir] = "contrib"
 projects[apachesolr][version] = 1.6
 
-projects[apachesolr_attachments][subdir] = "contrib"
-projects[apachesolr_attachments][version] = 1.2
-
-projects[apachesolr_og][subdir] = "contrib"
-projects[apachesolr_og][revision] = 5fda19fc208bd62713be99a839aed0528d9d3db7
-
 projects[boxes][subdir] = "contrib"
 projects[boxes][version] = 1.0-beta7
 projects[boxes][patch][] = "http://raw.github.com/openscholar/openscholar/b38919350643c8b26a3f639e935c1c6e802c6dd7/patches/boxes.load_from_spaces_and_fix_fatals.patch"
@@ -129,6 +123,7 @@ projects[feeds_tamper‏][type] = "module"
 projects[feeds_tamper‏][download][type] = "git"
 projects[feeds_tamper‏][download][url]="http://git.drupal.org/project/feeds_tamper.git"
 
+
 projects[feeds_xpathparser][subdir] = "contrib"
 projects[feeds_xpathparser][download][type] = git
 projects[feeds_xpathparser][download][branch] = 7.x-3.x
@@ -136,9 +131,6 @@ projects[feeds_xpathparser][download][revision] = 5bea17e
 
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = 1.0-beta5
-
-projects[field_group][subdir] = "contrib"
-projects[field_group][version] = 1.1
 
 projects[field_redirection][subdir] = "contrib"
 projects[field_redirection][version] = 2.5
@@ -207,9 +199,6 @@ projects[link][download][type] = git
 ;projects[link][revision] = "799bca2"
 projects[link][download][revision] = "ff518b60113f29885a8f358e8b0fa4499b0c608d"
 
-projects[linkchecker][subdir] = "contrib"
-projects[linkchecker][version] = 1.0-beta1
-
 projects[media][subdir] = "contrib"
 projects[media][version] = 2.x-dev
 projects[media][download][type] = git
@@ -234,9 +223,6 @@ projects[message][version] = 1.8
 
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = 1.0-beta9
-
-projects[module_filter][subdir] = "contrib"
-projects[module_filter][version] = 1.7
 
 projects[memcache][subdir] = "contrib"
 projects[memcache][version] = 1.0
@@ -273,6 +259,7 @@ projects[oembed][patch][] = "http://drupal.org/files/issues/oembed.2134415.wysiw
 projects[og][subdir] = "contrib"
 projects[og][version] = 2.4
 projects[og][patch][] = "https://drupal.org/files/issues/2153555-og-role-maintain-on-revert-6.patch"
+projects[og][patch][] = "https://drupal.org/files/issues/redirect-after-unsubscribe-1794294.patch"
 
 projects[og_moderation][subdir] = "contrib"
 projects[og_moderation][version] = 2.0
@@ -290,11 +277,6 @@ projects[og_views][version] = 1.0
 projects[og_vocab][subdir] = "contrib"
 projects[og_vocab][version] = 1.2
 projects[og_vocab][patch][] = "https://drupal.org/files/issues/og-vocab-reset-to-alpahbetical-2174907-4.patch"
-
-projects[olark][subdir] = "contrib"
-projects[olark][version] = 1.0-beta1
-projects[olark][patch][] = "http://drupal.org/files/olark-suppress_roles-1984210-1.patch"
-projects[olark][patch][] = "http://drupal.org/files/olark-js-to-d7-update-1785322-5.patch"
 
 projects[password_policy][subdir] = "contrib"
 projects[password_policy][version] = 2.0-alpha1
@@ -343,14 +325,6 @@ projects[shorten][version] = 1.2
 
 projects[securepages][subdir] = "contrib"
 projects[securepages][version] = 1.0-beta1
-
-projects[services][subdir] = "contrib"
-;projects[services][version] = 3.3+42-dev
-projects[services][download][branch] = 7.x-3.x
-projects[services][download][revision] = 761e620
-
-projects[services_basic_auth][subdir] = "contrib"
-projects[services_basic_auth][version] = "1.1"
 
 projects[spaces][subdir] = "contrib"
 ;projects[spaces][version] = 3.0-alpha1+9-dev
@@ -475,3 +449,4 @@ libraries[html5shiv][download][url] = "http://raw.github.com/aFarkas/html5shiv/m
 libraries[hopscotch][type] = "libraries"
 libraries[hopscotch][download][type] = "file"
 libraries[hopscotch][download][url] = "https://github.com/linkedin/hopscotch/archive/b41ab659507175264ab6347d0032f03e42b961d1.zip"
+
