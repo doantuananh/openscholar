@@ -5,6 +5,7 @@ package = Features
 project = os_events
 dependencies[] = calendar
 dependencies[] = colorbox
+dependencies[] = colorbox_node
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = date
