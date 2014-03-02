@@ -325,19 +325,11 @@ function openscholar_install_finished(&$install_state) {
     ->condition('name', drupal_get_profile())
     ->execute();
 
-  // Cache a fully-built schema.
-  drupal_get_schema(NULL, TRUE);
-
   // Remove the variable we used during the installation.
   variable_del('os_dummy_content');
 
   // Grant permission to view unpublished group content.
   os_grant_unpublished_viewing_permission();
-
-  // Run cron to populate update status tables (if available) so that users
-  // will be warned if they've installed an out of date Drupal version.
-  // Will also trigger indexing of profile-supplied content or feeds.
-  drupal_cron_run();
 
   return $output;
 }
