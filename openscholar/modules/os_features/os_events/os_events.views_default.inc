@@ -117,8 +117,6 @@ function os_events_views_default_views() {
   $handler->display->display_options['style_options']['theme_style'] = '1';
   $handler->display->display_options['style_options']['max_items'] = '0';
   $handler->display->display_options['style_options']['multiday_hidden'] = array(
-    'title' => 'title',
-    'rendered_entity' => 'rendered_entity',
     'field_date' => 'field_date',
   );
   $handler->display->display_options['defaults']['style_options'] = FALSE;
@@ -164,8 +162,6 @@ function os_events_views_default_views() {
   $handler->display->display_options['style_options']['theme_style'] = '1';
   $handler->display->display_options['style_options']['max_items'] = '0';
   $handler->display->display_options['style_options']['multiday_hidden'] = array(
-    'title' => 'title',
-    'rendered_entity' => 'rendered_entity',
     'field_date' => 'field_date',
   );
   $handler->display->display_options['defaults']['style_options'] = FALSE;
@@ -206,8 +202,6 @@ function os_events_views_default_views() {
   $handler->display->display_options['style_options']['theme_style'] = '1';
   $handler->display->display_options['style_options']['max_items'] = '0';
   $handler->display->display_options['style_options']['multiday_hidden'] = array(
-    'title' => 'title',
-    'rendered_entity' => 'rendered_entity',
     'field_date' => 'field_date',
   );
   $handler->display->display_options['defaults']['style_options'] = FALSE;
