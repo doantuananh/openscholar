@@ -17,6 +17,13 @@ function os_events_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'colorbox' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -87,6 +94,20 @@ function os_events_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'colorbox' => array(
+        'label' => 'inline',
+        'module' => 'date',
+        'settings' => array(
+          'format_type' => 'os_time',
+          'fromto' => 'both',
+          'multiple_from' => '',
+          'multiple_number' => '',
+          'multiple_to' => '',
+          'show_repeat_rule' => 'show',
+        ),
+        'type' => 'date_default',
+        'weight' => 1,
+      ),
       'default' => array(
         'label' => 'inline',
         'module' => 'date',
@@ -192,6 +213,13 @@ function os_events_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'colorbox' => array(
+        'label' => 'inline',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'inline',
         'module' => 'text',
@@ -258,6 +286,12 @@ function os_events_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'colorbox' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 6,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'registration',
@@ -333,6 +367,12 @@ function os_events_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'colorbox' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 4,
+      ),
       'default' => array(
         'label' => 'hidden',
         'module' => 'os_files',
