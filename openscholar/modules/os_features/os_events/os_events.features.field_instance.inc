@@ -95,7 +95,7 @@ function os_events_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'colorbox' => array(
-        'label' => 'inline',
+        'label' => 'hidden',
         'module' => 'date',
         'settings' => array(
           'format_type' => 'os_time',
