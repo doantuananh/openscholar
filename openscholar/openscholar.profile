@@ -288,7 +288,7 @@ function _openscholar_module_batch($modules) {
  * 'Finished' callback after all modules have been installed.
  */
 function _openscholar_install_profile_modules_finished($success, $results, $operations) {
-  _install_profile_modules_finished($success, $results, $operations);
+  // _install_profile_modules_finished($success, $results, $operations);
 
   if (variable_get('file_default_scheme', 'public') == 'private'){
     //Disallow indexing for this install. (Uses already enabled robotstxt module)
